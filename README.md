@@ -22,10 +22,7 @@ The script uses Git's `assume-unchanged` feature to handle files that:
 
 ### Configuration
 
-The script reads the list of files to process from:
-```
-tools/local/ignore-files-list.txt
-```
+The script reads the list of files to process from: ignore-files-list.txt
 
 This file contains paths to each file that should be managed by the script, relative to the repository root. To add more files to be ignored, simply add them to this file.
 
